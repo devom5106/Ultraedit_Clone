@@ -1,0 +1,404 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    display: flex;
+    /* flexbox created */
+    /* flex-direction: column; */
+    /* By default, the items are aligned in a row. If we want to align them in a column we use the flex-direction. */
+    gap: 40px;
+    /* Creates gap between the items. */
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-around;
+    /* justify-content is used to align items along the main axis. */
+    align-items: center;
+    /* align-items is used to align items along the cross axis. */
+    flex-wrap: wrap;
+    /* By using this property we can make our elements responsive for different screen sizes. */
+    align-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    padding-left: 180px;
+    color: rgba(0, 0, 0, 0.855);
+}
+
+nav ul img {
+    padding-right: 60px;
+}
+
+.maingrid {
+    height: auto;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.items {
+    text-align: center;
+    margin: 5px;
+    background-color: #f9f9f9;
+}
+
+.english {
+    padding-bottom: 15px;
+}
+
+.maingrid .items h3 {
+    margin-bottom: 10px;
+}
+
+.maingrid .items h5 {
+    font-weight: 450;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.download {
+    border-radius: 5px;
+    height: 37px;
+    padding: 8px 15px !important;
+    color: white;
+    margin: 3px;
+    margin-top: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+.download32 {
+    background-color: #00b6d1;
+}
+
+.download64 {
+    background-color: rgba(8, 176, 8, 0.647);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin: 60px;
+}
+
+.firstsubspan1 {
+    font-size: 45px;
+}
+
+.firstdiv1 {
+    width: 60vw;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.914);
+
+}
+
+.macdownload {
+    background-color: #00b6d1;
+    height: 50px;
+    width: 350px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.seconddiv1 {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondspan1 {
+    font-size: 25px;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.852);
+    width: 100vw;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.fourthdiv1 {
+    color: white;
+    display: flex;
+    gap: 15vw;
+    padding-top: 70px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.fourthsubdiv1 {
+    height: 130px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top:65px;
+}
+
+.fourthsubdiv2 {
+    width: 280px;
+    background-color: white;
+    height: 250px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.fourthsubspan1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fourthsubspan2 {
+    font-size: 15.5px;
+    text-align: center;
+}
+
+.fourthsubspan3 {
+    font-size: 25px;
+    color: #00b6d1;
+}
+
+.fourthsubspan4 {
+    font-size: 15px;
+}
+
+.fourthsubdiv2 div {
+    display: block;
+    margin: 1em auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.signup,
+input {
+    width: 100%;
+    height: 45px;
+}
+
+input {
+    background: #fff;
+    border: 1px solid;
+    border-color: rgb(51 51 51 / 16%);
+}
+
+.signup {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.fourthdiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 85px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 50px;
+}
+
+.fourthsubspan6,
+.fourthsubspan7,
+.fourthsubspan9 {
+    font-size: 16px;
+    color: white;
+}
+
+.fourthsubspan5,
+.fourthsubspan8 {
+    font-size: 22px;
+    color: white;
+}
+
+.fourthdiv2 a {
+    color: #00b6d1;
+    text-decoration: none;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+}
+
+.fifth {
+    display: grid;
+    width: 70vw;
+    height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fifthdiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    width: 14vw;
+    background-color: white;
+}
+
+.fifthsubspan1 {
+    padding-top: 12px;
+}
+
+.fifthul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fifthdiv1 ul {
+    list-style: none;
+}
+
+.fifthsubspan2,
+.fifthdiv1 .fifthul li {
+    font-size: 14px;
+}
+
+.heading,
+.fifthsubspan1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.email2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 180px;
+    border: 1px solid;
+    border-color: rgb(51 51 51 / 16%);
+    border-radius: 10px;
+}
+
+.subscribe {
+    width: 202px;
+    height: 38px;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sixth {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+}
+
+.darklogo {
+    padding-left: 38px;
+}
+
+.social_media_icons {
+    grid-column: 4/5;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    font-size: 12px;
+}
+
+@media  screen and (max-width: 1100px) {
+    .fourthdiv2 {
+        margin-left:5vw;
+        margin-right: 5vw;
+    }
+
+    .fifth , .sixth , .copyright , .maingrid{ 
+        width:100vw;
+    }
+
+    .firstdiv1, .seconddiv1
+    {
+        width:90vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .maingrid {
+        grid-template-columns: 1fr;
+    }
+
+    .fifth {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .fourthdiv1
+    {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height:20vh;
+        gap:0px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+        .fifth {
+            grid-template-columns: 1fr;
+            grid-template-rows: 380px;
+        }
+
+        .fifthdiv2 {
+            width:100vw;
+        }
+
+        .copyright{
+            grid-template-columns: 1fr 1fr;
+            width: 100vw;
+        }
+}
